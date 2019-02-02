@@ -27,7 +27,6 @@ class SpeechRecognizer extends React.Component {
   }
 
   onSpeechResult(event) {
-    console.log(123)
     if(!event) return;
     if(!event.results) return;
 
